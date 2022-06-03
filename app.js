@@ -6,7 +6,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Cloud Deplyoment Dev Ops Woche 13 - Test 1');
+  res.end('Cloud Deplyoment Dev Ops Woche 13 - Test 2');
 });
 
 server.listen(port, hostname, () => {
